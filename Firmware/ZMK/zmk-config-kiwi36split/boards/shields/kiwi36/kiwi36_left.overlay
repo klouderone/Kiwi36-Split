@@ -1,0 +1,29 @@
+#include "kiwi36.dtsi"
+
+&kscan {
+    
+col-gpios = <&pro_micro 20 GPIO_ACTIVE_HIGH>,
+            <&pro_micro 19 GPIO_ACTIVE_HIGH>,
+            <&pro_micro 18 GPIO_ACTIVE_HIGH>,
+            <&pro_micro 15 GPIO_ACTIVE_HIGH>, 
+            <&pro_micro 14 GPIO_ACTIVE_HIGH>;
+};
+
+&pro_micro_i2c {
+ status = "okay";
+
+ oled: ssd1306@3c {
+    compatible = "solomon,ssd1306fb";
+    reg = <0x3c>;
+    width = <128>;
+    height = <32>;
+    segment-offset = <0>;
+    page-offset = <0>;
+    display-offset = <0>;
+    multiplex-ratio = <31>;
+    com-invdir;
+    segment-remap;
+    com-sequential;
+    prechargep = <0x22>;
+    };
+};
