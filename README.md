@@ -91,9 +91,10 @@ I plan to design some protection against this, though i need to figure out how t
 ## Pictures
 
 PCBs
-![image](https://github.com/user-attachments/assets/42b4ee55-afd8-48ba-817e-26e9f39e5572)
+<img width="1941" height="919" alt="image" src="https://github.com/user-attachments/assets/ee042f6f-27e6-4750-a0c9-35329174d26e" />
 Schematic
-![image](https://github.com/user-attachments/assets/f8483d3e-f5d2-4615-abce-0e77aa9b9c7d)
+<img width="1767" height="657" alt="image" src="https://github.com/user-attachments/assets/bcc99298-7c70-4ec5-b772-9b965dfb77ee" />
+
 
 ## Releases
 
